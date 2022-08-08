@@ -71,8 +71,6 @@ export class AppComponent {
   reset(): void {
     this.running = false
     this.start()
-    // this.start$.next(this.ss);
-    // this.timer$.subscribe(v => this.ss = v < 10 ? this.ss = '0' + v : this.ss = v);
   }
 
   ngOnDestroy() {
